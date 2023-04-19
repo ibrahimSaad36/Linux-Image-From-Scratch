@@ -39,6 +39,7 @@ you should handle all relative paths.
 1- Go inside crosstool-ng directory and setup the environment
 
       cd crosstool-ng/
+      
       # Setup the environment
       
       ./bootstrap 
@@ -62,6 +63,10 @@ you should handle all relative paths.
 5- Configure the architecture
 
       ./ct-ng <architecture>
+      
+      # In our case to use Q-emu 
+      
+      ./ct-ng arm-cortexa9_neon-linux-gnueabihf
       
 6- Choose the configurations you want
 
