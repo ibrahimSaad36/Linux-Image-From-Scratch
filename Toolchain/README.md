@@ -81,7 +81,7 @@ writing / and then a search window will be opened, type anything you want and it
    ![8BH8R](https://user-images.githubusercontent.com/118214245/233126057-8d4f9288-0e0b-4b80-8a70-0b018cb83591.jpg)
 
 7- Time to build, make sure you finished all the configurations before building and make sure that your laptop's screen won't
-be turned off, and the laptop is plugged into the power as the process is long (for me it took about 222 minutes to finish)
+be turned off, and the laptop is plugged into the power as the process is long (for me it took about 122 minutes to finish)
 
       ./ct-ng build
       
