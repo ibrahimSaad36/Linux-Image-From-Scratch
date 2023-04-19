@@ -13,7 +13,7 @@ build it again with a different compiler to get binaries that can run on your ne
 
 ### Why we need a cross-compiler?
 
-Because the target architecture differs from the architecture of the host machine which means different ISA, different considerations
+Because the target architecture differs from the architecture of the host machine (the host machine is the machine you're writing the code on it and compile this code to run it on a different machine) which means different ISA, different considerations
 such as if this target supports hardware FPU or the compiler will handle all floating point computations on its own, also if the target
 is little endian or big Indian so, we need a compiler that can understand the target's ISA and the architecture.
 
