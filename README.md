@@ -10,6 +10,10 @@ your desired hardware and it's very easy.
 ## We have to download some packages
 * First of all, we need to download the following packages and libraries which will be needed later when building our
 cross-compiler and u-boot (Don't worry about such things, it will be covered later)
+
+      sudo apt-get update
+
+      sudo apt-get upgrade
   
       sudo apt-get install -y gcc g++ gperf bison flex texinfo help2man make libncurses5-dev 
       python3-dev autoconf automake libtool libtool-bin gawk wget bzip2 xz-utils unzip patch 
